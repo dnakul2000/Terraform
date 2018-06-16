@@ -17,9 +17,4 @@ variable "ami" {
   }
 }
 
-
-
-
-
-
 data "aws_availability_zones" "all" {}
