@@ -7,7 +7,6 @@ resource "aws_instance" "deshmukh" {
 }
 
 
-
 resource "aws_launch_configuration" "deshmukh_launch" {
   image_id = "${lookup(var.amis,var.region)}"
   instance_type = "t2.micro"
